@@ -10,7 +10,7 @@ class mainscreen(wx.Panel):
 
 class mainApp(wx.Frame):
 
-
+    proxyInfo = {}
     def __init__(self,*args,**kwargs):
         super(mainApp,self).__init__(*args,**kwargs)
         self.screen=mainscreen(self)
