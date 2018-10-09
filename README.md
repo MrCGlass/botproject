@@ -1,2 +1,2 @@
-# botproject
+# mybot
 appbot
